@@ -3,6 +3,9 @@ from flask import Flask, render_template, request, flash
 app = Flask(__name__)
 app.secret_key = "password"
 
+def subtract(a, b):
+    return a - b
+
 @app.route("/hello")
 def index():
     flash("What is your name?")
