@@ -9,7 +9,7 @@ app.secret_key = "password"
 def add(a, b):
     return a + b
 
-class unprotectedForm(FlaskForm):
+class unprotected_form(FlaskForm):
     class Meta:
         csrf = True # Compliant
 
