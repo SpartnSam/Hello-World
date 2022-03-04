@@ -5,7 +5,7 @@ body {
 
 p {
     color: mediumslateblue;
-    font-family: Verdana;
+    font-family: Verdana, Helvetica, Arial, Tahoma, sans-serif;
     font-size: 1.2em;
     display: inline-block;
     margin: 20px;
@@ -23,7 +23,7 @@ input {
     height: 50px;
     border: none;
     border-radius: 10px;
-    font-family: Verdana;
+    font-family: Verdana, Helvetica, Arial, Tahoma, sans-serif;
     font-size: 1.3em;
     text-align: center;
 }
