@@ -1,10 +1,9 @@
 from flask import Flask, render_template, request, flash
 
 app = Flask(__name__)
-app.secret_key = "password"
-
 csrf = CSRFProtect()
 csrf.init_app(app) # Compliant
+app.secret_key = "password"
 
 # Test
 def add(a, b):
